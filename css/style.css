@@ -1,0 +1,220 @@
+header nav div a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+header>nav>div {
+    list-style: none;
+
+}
+
+.blueStrikethrough {
+    text-decoration: line-through;
+    text-decoration-color: rgba(228, 106, 19, 0.617);
+    text-decoration-thickness: 15px;
+
+}
+
+main a {
+    text-decoration: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: inherit;
+
+}
+/* skip links */
+
+.skip-links {
+    list-style: none;
+
+}
+
+.skip-links a {
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    z-index: 100;
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    border: 5px solid red;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    /*width: 20%;
+    margin: -2rem 0rem -2rem 7rem;*/
+}
+
+.skip-links a:focus {
+    transform: translateY(0);
+    opacity: 1;
+    position: static;
+}
+
+
+/* Links Hover */
+.onHover:hover {
+    color: black !important;
+    border-radius: 2rem;
+    width: 100px;
+    text-align: center;
+    background-color: rgb(28, 208, 215);
+    transform: scale(1.3);
+    transition: transform 1s;
+}
+
+.onActive:active {
+    outline: none;
+    border: solid 3px red;
+
+}
+
+.borderRadiusBlue {
+    border-radius: 2rem;
+    width: 100px;
+    text-align: center;
+    background-color: rgb(19, 75, 228);
+}
+
+.borderRadiusOrange {
+    border-radius: 2rem;
+    width: 100px;
+    text-align: center;
+    background-color: rgb(228, 96, 19);
+}
+
+
+/* milkyWay */
+.wrapper {
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: rgba(201, 214, 61, 0.100) 0px 10px 50px 30px;
+    overflow: hidden;
+
+}
+
+.milkyWay {
+    width: 100%;
+    animation: zoom 30s infinite;
+    z-index: 1;
+
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.5);
+    }
+}
+
+.text-overlay {
+    position: absolute;
+    margin-top: -10rem;
+    /* transform: translate(-50%, -50%); */
+    z-index: 10;
+}
+
+.gradientColor {
+    background: -webkit-linear-gradient(0deg, #5085b3, #09e8f8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* images */
+.imageResize {
+    width: 100%;
+}
+
+.marginText1 {
+    margin-top: 5rem;
+}
+
+.borderRadiusPurple {
+    border-radius: 2rem;
+    width: 100px;
+    text-align: center;
+    background-color: rgb(139, 13, 164);
+
+}
+
+.borderRadiusBlue {
+    border-radius: 2rem;
+    width: 100px;
+    text-align: center;
+    background-color: #0a477d
+}
+
+.fontsize2 {
+    font-size: small;
+}
+
+.borderTop {
+    border-top: solid 1px rgba(255, 255, 255, 0.119);
+
+}
+.mt-7{
+    margin-top: -3rem;
+}
+
+/* media query */
+@media screen and (max-width:992px) {
+
+    body {
+        padding: 0;
+        margin: 2rem;
+        background-color: black;
+    }
+
+}
+
+/* media query for top image */
+/* 
+@media screen and (max-width:768px) {
+    .wrapper {
+        border-radius: 0rem;
+        box-shadow: rgba(201, 214, 61, 0.100) 0px 10px 50px 30px;
+        overflow: hidden;
+        width: 800px;
+        margin-left: -3rem;
+
+    }
+
+}
+@media screen and (max-width:425px) {
+    .wrapper {
+        border-radius: 0rem;
+        box-shadow: rgba(201, 214, 61, 0.100) 0px 10px 50px 30px;
+        overflow: hidden;
+        width: 430px;
+        margin-left: -3rem;
+
+    }
+}
+
+@media screen and (max-width:375px){
+    .wrapper {
+        border-radius: 0rem;
+        box-shadow: rgba(201, 214, 61, 0.100) 0px 10px 50px 30px;
+        overflow: hidden;
+        width: 380px;
+        margin-left: -3rem;
+
+    }
+}
+
+@media screen and (max-width:320px){
+    .wrapper {
+        border-radius: 0rem;
+        box-shadow: rgba(201, 214, 61, 0.100) 0px 10px 50px 30px;
+        overflow: hidden;
+        width: 330px;
+        margin-left: -3rem;
+
+    }
+}
+     */

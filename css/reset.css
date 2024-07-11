@@ -1,0 +1,36 @@
+header > div {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+.font1{
+font-family: "Lato", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+.gradientColor{
+
+font-family: "Lato", sans-serif;
+font-weight: 800;
+font-style: normal;
+
+}
+  
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 2rem 15rem;
+    background-color: black;
+}
+  
