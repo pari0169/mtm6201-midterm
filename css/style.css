@@ -160,6 +160,9 @@ nav a{
 .mt-7{
     margin-top: -3rem;
 }
+.mb-6{
+    margin-bottom: 2rem;
+}
 
 /* media query */
 @media screen and (max-width:992px) {
